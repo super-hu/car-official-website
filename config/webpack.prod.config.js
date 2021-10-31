@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = webpackMerge.merge(baseWebpackConfig, {
   // 指定构建环境
-  mode: "none",
+  mode: "production",
   // 插件
   plugins: [
     new HtmlWebpackPlugin({
