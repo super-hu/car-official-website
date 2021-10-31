@@ -1,0 +1,2123 @@
+<!DOCTYPE html>
+<html lang="zh">
+<!-- htmlcs-disable -->
+<head>
+    <meta charset="UTF-8">
+    <title>车联网官网</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <![endif]-->
+    <!-- <link rel="icon" href="https://iov-www.cdn.bcebos.com/normal/baidu_favicon.ico" type="image/x-icon"> -->
+    <link rel="stylesheet" href="./homepage.min.css">
+    <script>
+        /* eslint-disable */
+        var isLoadFlexible = false;
+        function loadFlexible() {
+            if (screen.width <= 750 && !isLoadFlexible) {
+                isLoadFlexible = true;
+                (function flexible(window, document) {
+                    var docEl = document.documentElement;
+                    var dpr = window.devicePixelRatio || 1;
+    
+                    // adjust body font size
+                    function setBodyFontSize() {
+                        if (document.body) {
+                            document.body.style.fontSize = 12 * dpr + 'px';
+                        } else {
+                            document.addEventListener(
+                                'DOMContentLoaded',
+                                setBodyFontSize
+                            );
+                        }
+                    }
+                    setBodyFontSize();
+    
+                    // set 1rem = viewWidth / 10
+                    function setRemUnit() {
+                        var rem = docEl.clientWidth / 10;
+                        docEl.style.fontSize = rem + 'px';
+                    }
+    
+                    setRemUnit();
+    
+                    // reset rem unit on page resize
+                    window.addEventListener('resize', setRemUnit);
+                    window.addEventListener('pageshow', function (e) {
+                        if (e.persisted) {
+                            setRemUnit();
+                        }
+                    });
+    
+                    // detect 0.5px supports
+                    if (dpr >= 2) {
+                        var fakeBody = document.createElement('body');
+                        var testElement = document.createElement('div');
+                        testElement.style.border = '.5px solid transparent';
+                        fakeBody.appendChild(testElement);
+                        docEl.appendChild(fakeBody);
+                        if (testElement.offsetHeight === 1) {
+                            docEl.classList.add('hairlines');
+                        }
+                        docEl.removeChild(fakeBody);
+                    }
+                })(window, document);
+            }
+        }
+        loadFlexible();
+        window.onresize = loadFlexible;
+    </script></head>
+<body class="">
+    <!-- htmlcs-disable -->
+<script>
+    if (document.body.clientWidth < 750) {
+        if (window.location.href.indexOf('baidu.com') != -1) {
+            window.location.href = '/homepage/indexMobile.html';
+        } else {
+            window.location.href = '/indexMobile.html';
+        }
+        //window.location.href = '/homepage/indexMobile.html';
+    }
+</script>
+<svg
+    width="16px"
+    height="16px"
+    viewBox="0 0 16 16"
+    version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    style="display: none"
+>
+    <defs>
+        <g id="enter" stroke="none" stroke-width="1">
+            <path
+                d="M11.0303879,8 L4.81955303,2.23279679 C4.41484255,1.85699424 4.39140808,1.22426344 4.76721066,0.819553002 C5.14301325,0.414842563 5.77574411,0.391408089 6.18045458,0.767210639 L13.1804513,7.26720693 C13.6065162,7.66283867 13.6065162,8.33716133 13.1804513,8.73279307 L6.18045458,15.2327894 C5.77574411,15.6085919 5.14301325,15.5851574 4.76721066,15.180447 C4.39140808,14.7757366 4.41484255,14.1430058 4.81955303,13.7672032 L11.0303879,8 Z"
+                id="Path-17"
+            ></path>
+        </g>
+    </defs>
+</svg>
+<div class="mantle"></div>
+<nav class="navbar">
+    <div class="inner ">
+        <a href="/homepage/." class="logoA">
+            <img src="/static/chelianwang-homepage/images/logo/logo.5e3b6.png" class="logo" />
+            <span class="Height"></span>
+        </a>
+        <input type="checkbox" class="clw-m tm" id="tm" />
+        <label for="tm" class="clw-m tg-sidenav"></label>
+        <label for="tm" class="clw-m del"></label>
+        <ul class="menu ">
+            <li>
+                <a target=_blank href="/homepage/."
+                    data-track-title="导航_首页"
+                    aria-label="首页"
+                    id=
+                >首页
+                    <span class="icon"></span>
+                </a>
+                <ul class="mobile">
+                </ul>
+            </li>
+            <li>
+                <a target=_self href="/homepage/#sec4"
+                    data-track-title="导航_产品方案"
+                    aria-label="产品方案"
+                    id=scheme
+                >产品方案
+                    <span class="icon"></span>
+                </a>
+                <ul class="mobile">
+                        <li style="border-bottom:unset;">
+                            <a target="_blank" 
+                                data-track-title="导航_小度助手汽车版"
+                                aria-label="小度助手汽车版" href="/homepage/smallDegree.html"
+                            >小度助手汽车版</a>
+                        </li>
+                        <li style="border-bottom:unset;">
+                            <a target="_blank" 
+                                data-track-title="导航_百度地图汽车版"
+                                aria-label="百度地图汽车版"
+                                href="http://mapauto.baidu.com/"
+                            >百度地图汽车版</a>
+                        </li>
+                        <li style="border-bottom:unset;">
+                            <a target="_blank" 
+                                data-track-title="导航_大数据引擎"
+                                aria-label="大数据引擎" href="/homep¬age/dataEngine.html"
+                            >大数据引擎</a>
+                        </li>
+                        <li style="border-bottom:unset;">
+                            <a target="_blank" 
+                                data-track-title="导航_安全引擎"
+                                aria-label="安全引擎" href="/homepage/securityEngine.html"
+                            >安全引擎</a>
+                        </li>
+                        <li style="border-bottom:unset;">
+                            <a target="_blank" 
+                                data-track-title="导航_轻座舱"
+                                aria-label="轻座舱" href="/homepage/lightCabin.html"
+                            >轻座舱</a>
+                        </li>
+                        <li style="border-bottom:unset;">
+                            <a target="_blank" 
+                                data-track-title="导航_CarLife+"
+                                aria-label="CarLife+"
+                                href="http://online.carlife.baidu.com/"
+                            >CarLife+</a>
+                        </li>
+                        <li style="border-bottom:unset;">
+                            <a target="_blank" 
+                                data-track-title="导航_度小镜"
+                                aria-label="度小镜" href="/homepage/dumirror.html"
+                            >度小镜</a>
+                        </li>
+                        <li style="border-bottom:unset;">
+                            <a target="_blank" 
+                                data-track-title="导航_智能车盒"
+                                aria-label="智能车盒" href="/homepage/box.html"
+                            >智能车盒</a>
+                        </li>
+                </ul>
+            </li>
+            <li>
+                <a target=_blank href="https://applets.baidu.com/aiappopen/"
+                    data-track-title="导航_生态开发平台"
+                    aria-label="生态开发平台"
+                    id=
+                >生态开发平台
+                    <span class="icon"></span>
+                </a>
+                <ul class="mobile">
+                </ul>
+            </li>
+            <li>
+                <a target=_blank href="/homepage/cooperativePartner.html"
+                    data-track-title="导航_合作伙伴"
+                    aria-label="合作伙伴"
+                    id=
+                >合作伙伴
+                    <span class="icon"></span>
+                </a>
+                <ul class="mobile">
+                </ul>
+            </li>
+            <li>
+                <a target=_blank href="/homepage/news.html"
+                    data-track-title="导航_官方新闻"
+                    aria-label="官方新闻"
+                    id=
+                >官方新闻
+                    <span class="icon"></span>
+                </a>
+                <ul class="mobile">
+                </ul>
+            </li>
+            <li>
+                <a target=_blank href="mailto:iov-hezuo@baidu.com"
+                    data-track-title="导航_联系我们"
+                    aria-label="联系我们"
+                    id=
+                >联系我们
+                    <span class="icon"></span>
+                </a>
+                <ul class="mobile">
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="nav1-2">
+    <ul class="ul-children">
+            <li style="border-bottom:unset;">
+                <a target="_blank" href="/homepage/smallDegree.html"
+                    data-track-title="导航_小度助手汽车版"
+                    aria-label="小度助手汽车版"
+                >小度助手汽车版</a>
+            </li>
+            <li style="border-bottom:unset;">
+                <a target="_blank" href="http://mapauto.baidu.com/"
+                    data-track-title="导航_百度地图汽车版"
+                    aria-label="百度地图汽车版"
+                >百度地图汽车版</a>
+            </li>
+            <li style="border-bottom:unset;">
+                <a target="_blank" href="/homepage/dataEngine.html"
+                    data-track-title="导航_大数据引擎"
+                    aria-label="大数据引擎"
+                >大数据引擎</a>
+            </li>
+            <li style="border-bottom:unset;">
+                <a target="_blank" href="/homepage/securityEngine.html"
+                    data-track-title="导航_安全引擎"
+                    aria-label="安全引擎"
+                >安全引擎</a>
+            </li>
+            <li style="border-bottom:unset;">
+                <a target="_blank" href="/homepage/lightCabin.html"
+                    data-track-title="导航_轻座舱"
+                    aria-label="轻座舱"
+                >轻座舱</a>
+            </li>
+            <li style="border-bottom:unset;">
+                <a target="_blank" href="http://online.carlife.baidu.com/"
+                    data-track-title="导航_CarLife+"
+                    aria-label="CarLife+"
+                >CarLife+</a>
+            </li>
+            <li style="border-bottom:unset;">
+                <a target="_blank" href="/homepage/dumirror.html"
+                    data-track-title="导航_度小镜"
+                    aria-label="度小镜"
+                >度小镜</a>
+            </li>
+            <li style="border-bottom:unset;">
+                <a target="_blank" href="/homepage/box.html"
+                    data-track-title="导航_智能车盒"
+                    aria-label="智能车盒"
+                >智能车盒</a>
+            </li>
+    </ul>
+</div>
+<div class="nav-2">
+    <div class="nav-2-inner">
+                <div class="nav-2-inner-btn">
+                    <a href="/homepage/dueros2021/ai.html">
+                        <span>AI基座</span>
+                    </a>
+                </div>
+                <div class="nav-2-inner-btn">
+                    <a href="/homepage/dueros2021/ecology.html">
+                        <span>生态基座</span>
+                    </a>
+                </div>
+                <div class="nav-2-inner-btn">
+                    <a href="/homepage/dueros2021/lbs.html">
+                        <span>LBS基座</span>
+                    </a>
+                </div>
+                <div class="nav-2-inner-btn">
+                    <a href="/homepage/dueros2021/dataBase.html">
+                        <span>数据基座</span>
+                    </a>
+                </div>
+                <div class="nav-2-inner-btn">
+                    <a href="/homepage/dueros2021/sys.html">
+                        <span>系统基座</span>
+                    </a>
+                </div>
+    </div>
+</div>
+<div class="nav-3">
+    <div class="nav-3-inner">
+            <div class="nav-3-inner-btn">
+                <a href="/homepage/carCabin.html">
+                    <span>智能驾舱</span>
+                </a>
+            </div>
+            <div class="nav-3-inner-btn">
+                <a href="/homepage/carlife">
+                    <span>CarLife+</span>
+                </a>
+            </div>
+            <div class="nav-3-inner-btn">
+                <a href="http://mapauto.baidu.com/">
+                    <span>百度地图汽车版</span>
+                </a>
+            </div>
+            <div class="nav-3-inner-btn">
+                <a href="/homepage/box.html">
+                    <span>智能车盒</span>
+                </a>
+            </div>
+            <div class="nav-3-inner-btn">
+                <a href="/homepage/dumirror.html">
+                    <span>度小镜</span>
+                </a>
+            </div>
+    </div>
+</div>
+<script src="https://iov-www.cdn.bcebos.com/normal/js/jquery.1.10.2.min.js"></script>
+<script>
+    console.log($('.menu li').eq(1))
+    $('.menu li').eq(1).hover(function() {
+        $('.nav1-2').show()
+    })
+    $('.nav1-2').hover(function() {
+        $('.nav1-2').show()
+    },function() {
+        $('.nav1-2').hide()
+    })
+    $('.tg-sidenav').click(function() {
+        $('.menu').addClass('active');
+    })
+    document.addEventListener('DOMContentLoaded',function(){
+        var FIXEDHEIGHT = 100;
+        if (document.documentElement.scrollTop > FIXEDHEIGHT) {
+            $('.navbar').addClass('fixedNav');
+        } else {
+            $('.navbar').removeClass('fixedNav');
+        }
+        window.addEventListener('scroll', function () {
+            if (document.documentElement.scrollTop > FIXEDHEIGHT) {
+                $('.navbar').addClass('fixedNav');
+            } else {
+                $('.navbar').removeClass('fixedNav');
+            }
+        });
+        window.addEventListener('touchstart', function () {
+            if (document.documentElement.scrollTop > FIXEDHEIGHT) {
+                $('.navbar').addClass('fixedNav');
+            } else {
+                $('.navbar').removeClass('fixedNav');
+            }
+        });
+    });
+</script>
+<div id="fullpage">
+    <div class="section sec-1 sec1">
+        <video class="sec1-video" autoplay="autoplay" loop="loop" muted="muted" playsinline="">
+            <source src="https://iov-www.cdn.bcebos.com/chelianwang/video/dueros-1.mp4" type="video/mp4">
+        </video>
+        <div class="sec-1-wrap">
+            <div class="title sliderIn">Apollo智能车联</div>
+            <div class="title2 sliderIn">帮车企造好车 造聪明的车</div>
+            <div class="play" data-src="https://iov-www.cdn.bcebos.com/chelianwang/video/chelianwang-home.mp4">
+                <div class="play-wrap"></div>
+            </div>
+            <div class="mouse"></div>
+        </div>
+    </div>
+    <div class="section sec-2 sec2">
+        <div class="title sliderIn">汽车智能化,行业面临的挑战</div>
+        <ul class="list-wrap">
+            <li class="list-wrap-item">
+                <div class="list-wrap-item-title">
+                    造车者
+                </div>
+                <ul class="list-wrap-item-desc">
+                    <li class="list-wrap-item-desc-item">
+                        重复造轮子
+                    </li>
+                    <li class="list-wrap-item-desc-item">
+                        跃向智能化过程艰难
+                    </li>
+                </ul>
+                <div class="list-wrap-item-line"></div>
+                <div class="list-wrap-item-numtitle">
+                    非智能汽车市场占比
+                </div>
+                <div class="list-wrap-item-num">
+                    > <span id="sec2-num1">0</span>%
+                </div>
+            </li>
+            <li class="list-wrap-item">
+                <div class="list-wrap-item-title">
+                    买车者
+                </div>
+                <ul class="list-wrap-item-desc">
+                    <li class="list-wrap-item-desc-item">
+                        买车短期内
+                    </li>
+                    <li class="list-wrap-item-desc-item">
+                        就不够智能了
+                    </li>
+                </ul>
+                <div class="list-wrap-item-line"></div>
+                <div class="list-wrap-item-numtitle">
+                    智能车机用户交互频率1年内
+                </div>
+                <div class="list-wrap-item-num">
+                   下降<span id="sec2-num2">0</span>%
+                </div>
+            </li>
+            <li class="list-wrap-item">
+                <div class="list-wrap-item-title">
+                    卖车者
+                </div>
+                <ul class="list-wrap-item-desc">
+                    <li class="list-wrap-item-desc-item">
+                        销售竞争压力大
+                    </li>
+                    <li class="list-wrap-item-desc-item">
+                        投放效果不可控
+                    </li>
+                </ul>
+                <div class="list-wrap-item-line"></div>
+                <div class="list-wrap-item-numtitle">
+                    行业线索数到到店数转换率
+                </div>
+                <div class="list-wrap-item-num">
+                    < <span id="sec2-num3">3</span>%
+                </div>
+            </li>
+            <li class="list-wrap-item">
+                <div class="list-wrap-item-title">
+                    开发者
+                </div>
+                <ul class="list-wrap-item-desc">
+                    <li class="list-wrap-item-desc-item">
+                        市场割裂
+                    </li>
+                    <li class="list-wrap-item-desc-item">
+                        无从入局
+                    </li>
+                </ul>
+                <div class="list-wrap-item-line"></div>
+                <div class="list-wrap-item-numtitle">
+                    市场车载开发者占比
+                </div>
+                <div class="list-wrap-item-num">
+                    < <span id="sec2-num4">0</span>%
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="section sec-3 sec3">
+        <div class="title sliderIn">特性价值</div>
+        <ul class="map-city">
+            <li class="map-city-center"></li>
+            <li class="map-city-item item2">
+                <div class="pop-container">
+                    <div class="pop-container-title">
+                        买车者
+                    </div>
+                    <div class="pop-container-head">
+                        我的车独一无二
+                    </div>
+                    <ul class="pop-container-list">
+                        <li class="pop-container-text">千人千面的场景，推荐服务</li>
+                        <li class="pop-container-text">提升用户体验，实现数据价值闭环</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="map-city-item item1">
+                <div class="pop-container">
+                    <div class="pop-container-title">
+                        造车者
+                    </div>
+                    <div class="pop-container-head">
+                        数据反哺 智能造车上“快车道”
+                    </div>
+                    <ul class="pop-container-list">
+                        <li class="pop-container-text">小度助手连接AI能力和生态，实现服务分发，</li>
+                        <li class="pop-container-text">资源调度，场景推荐无缝沟通</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="map-city-item item4">
+                <div class="pop-container">
+                    <div class="pop-container-title">
+                        卖车者
+                    </div>
+                    <div class="pop-container-head">
+                        智能营销提升销售效率
+                    </div>
+                    <ul class="pop-container-list">
+                        <li class="pop-container-text">汽车大数据云服务打通营销闭环，</li>
+                        <li class="pop-container-text">全面提升投放效果与销售效率</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="map-city-item item3">
+                <div class="pop-container">
+                    <div class="pop-container-title">
+                        开发者
+                    </div>
+                    <div class="pop-container-head">
+                        用繁荣的生态定义汽车生活
+                    </div>
+                    <ul class="pop-container-list">
+                        <li class="pop-container-text">车载小程序开放平台，</li>
+                        <li class="pop-container-text">支持开发者快速介入车载场景</li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="section sec-4 sec4" id="sec4">
+        <ul class="banner-title">
+            <li class="active">
+                <div class="head">
+                    产品方案
+                </div>
+                <div class="title">小度助手汽车版</div>
+                <div class="more">
+                    <div class="more-block">
+                        <a href="/homepage/smallDegree.html" target="_blank">查看更多</a><span class="more-arrow">></span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="head">
+                    产品方案
+                </div>
+                <div class="title">百度地图汽车版</div>
+                <div class="more">
+                    <div class="more-block">
+                        <a href="http://mapauto.baidu.com/" target="_blank">查看更多</a><span class="more-arrow">></span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="head">
+                    产品方案
+                </div>
+                <div class="title">大数据引擎</div>
+                <div class="more">
+                    <div class="more-block">
+                        <a href="/homepage/dataEngine.html" target="_blank">查看更多</a><span class="more-arrow">></span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="head">
+                    产品方案
+                </div>
+                <div class="title">安全引擎</div>
+                <div class="more">
+                    <div class="more-block">
+                        <a href="/homepage/securityEngine.html" target="_blank">查看更多</a><span class="more-arrow">></span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="head">
+                    产品方案
+                </div>
+                <div class="title">智能车盒</div>
+                <div class="more">
+                    <div class="more-block">
+                        <a href="/homepage/box.html" target="_blank">查看更多</a><span class="more-arrow">></span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="head">
+                    产品方案
+                </div>
+                <div class="title">度小镜</div>
+                <div class="more">
+                    <div class="more-block">
+                        <a href="/homepage/dumirror.html" target="_blank">查看更多</a><span class="more-arrow">></span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="head">
+                    产品方案
+                </div>
+                <div class="title">轻座舱</div>
+                <div class="more">
+                    <div class="more-block">
+                        <a href="/homepage/lightCabin.html" target="_blank">查看更多</a><span class="more-arrow">></span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="head">
+                    产品方案
+                </div>
+                <div class="title">Carlife+</div>
+                <div class="more">
+                    <div class="more-block">
+                        <a href="http://online.carlife.baidu.com/" target="_blank">查看更多</a><span
+                            class="more-arrow">></span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="banner-wrap">
+            <div class="banner-list banner-list-1"></div>
+            <div class="banner-list banner-list-2"></div>
+            <div class="banner-list banner-list-3"></div>
+            <div class="banner-list banner-list-4"></div>
+            <div class="banner-list banner-list-5"></div>
+            <div class="banner-list banner-list-6"></div>
+            <div class="banner-list banner-list-7"></div>
+            <div class="banner-list  banner-list-8"></div>
+        </div>
+    </div>
+    <div class="section sec-5 sec5" id="sec5">
+        <div class="sec5-head-wrap">
+            <ul class="sec5-head">
+                <li class="sec5-head-item" data-target=".sec5-content">
+                    合作案例
+                    <span></span>
+                </li>
+                <li class="sec5-head-item active"  data-target=".sec5-content2">
+                    合作品牌
+                    <span></span>
+                </li>
+                <li class="sec5-head-more">
+                    <a class="sec5-head-more-block" href="/homepage/cooperativePartner.html" target="_blank">
+                        查看更多 <span class="sec5-head-more-block-arrow">></span>
+                    </a>
+                </li>
+            </ul>
+            <div class="sort">企业排名不分先后，按首字母顺序排序</div>
+        </div>
+        <ul class="sec5-content">
+            <li class="sec5-content-item">
+                <div class="img"></div>
+                <div class="sec5-content-item-title">福特中国</div>
+                <div class="sec5-content-item-desc">福特中国与Apollo于2018即战略合作，旨在为中国消费者提供智能化 个性化的车载信息娱乐系统和数字解决方案，运用创新方式提升用户
+                    体验。目前， SYNC+智行信息娱乐系统已经在众多车型搭载，为福 特用户带来极致出行新体验。基于百度Apollo智能车联赋能，携手共 同推进汽车智能化进程。</div>
+            </li>
+            <li class="sec5-content-item">
+                <div class="img"></div>
+                <div class="sec5-content-item-title">奇瑞星途</div>
+                <div class="sec5-content-item-desc">2015年奇瑞与百度Apollo达成合作，共同研发的Lion雄狮智云4.0智能
+                    车机系统。双方在自动驾驶、汽车智能化等多领域的合作频出硕果，整合了AR增强实景导航、深度人脸识别支付、智能语音语义识别等功能， 以“内外兼修”的科技感与智能化，进一步解锁了智能驾乘新体验。
+                </div>
+            </li>
+            <li class="sec5-content-item">
+                <div class="img"></div>
+                <div class="sec5-content-item-title">广汽丰田</div>
+                <div class="sec5-content-item-desc">广汽丰田与百度Apollo自2020年达成合作关系以来，双方首先就智能车联领域进行合作，并将合作产出快速落地于广汽丰田重要车型-全新
+                    一代汉兰达上，未来将会有更多搭载百度AI智能车联核心能力的广汽丰田车型上市。</div>
+            </li>
+            <li class="sec5-content-item">
+                <div class="img"></div>
+                <div class="sec5-content-item-title">上汽通用</div>
+                <div class="sec5-content-item-desc">上汽通用汽车与百度于2018年开始正式建立了紧密的合作关系。依托 双方完整、成熟和先进的研发体系在智能车联领域开展了从产品设计、
+                    工程开发、试验认证到交付的全链路能力，覆盖旗下凯迪拉克、别克、雪佛兰等一线品牌。未来双方还将在高精度地图、自动驾驶、智能出 行等领域进行进一步探索。</div>
+            </li>
+            <li class="sec5-content-item">
+                <div class="img"></div>
+                <div class="sec5-content-item-title">现代集团</div>
+                <div class="sec5-content-item-desc">从2014年至今，百度与现代起亚建立了紧密的战略合作关系。2018年7月签订的战略合作协议进一步加强了双方在汽车智能化方向上连接和
+                    联合创新。目前，双方合作开发的最新智能网联3.0系统，已成功应用 于所有在中国市场上市的现代和起亚车型。</div>
+            </li>
+            <li class="sec5-content-item">
+                <div class="img"></div>
+                <div class="sec5-content-item-title">吉利领克&亿咖通科技</div>
+                <div class="sec5-content-item-desc">2019年7月，亿咖通科技与百度Apollo正式签署战略合作协议，接入百度地图汽车版、百度输入法以及音乐资源，涵盖语音、车载小程序
+                    百度网盘等能力。亿咖通科技和百度Apollo的合作聚焦于“汽车+AI” 的未来探索，共同研究AI在汽车智能领域的多样应用，并将共同研发下一代人工智能车载系统。</div>
+            </li>
+        </ul>
+        <div class="sec5-content2 active">
+            <div class="sec5-content2-card">
+                    <div class="sec5-content2-item">
+                        <div class="sec5-content2-item-num">60+</div>
+                        <div class="sec5-content2-item-desc">合作车企</div>
+                    </div>
+                    <div class="sec5-content2-item">
+                        <div class="sec5-content2-item-num">500+</div>
+                        <div class="sec5-content2-item-desc">合作车型</div>
+                    </div>
+                    <div class="sec5-content2-item">
+                        <div class="sec5-content2-item-num">10亿+</div>
+                        <div class="sec5-content2-item-desc">年累计行驶/公里</div>
+                    </div>
+                    <div class="sec5-content2-item">
+                        <div class="sec5-content2-item-num">1300万</div>
+                        <div class="sec5-content2-item-desc">与车主一路畅行/人</div>
+                    </div>
+            </div>
+            <div class="sec5-content2-list">
+                    <ul class="sec5-content2-list-column">
+                        <li class="sec5-content2-list-column-head">
+                            德系
+                        </li>
+                            <li class="sec5-content2-list-column-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-audi.1d5d3.png" />
+                            </li>
+                            <li class="sec5-content2-list-column-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-shangqi.01377.png" />
+                            </li>
+                    </ul>
+                    <ul class="sec5-content2-list-column">
+                        <li class="sec5-content2-list-column-head">
+                            韩系
+                        </li>
+                            <li class="sec5-content2-list-column-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-honda.71690.png" />
+                            </li>
+                            <li class="sec5-content2-list-column-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-kia.bdb95.png" />
+                            </li>
+                            <li class="sec5-content2-list-column-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-GEN.e6db1.png" />
+                            </li>
+                    </ul>
+                    <ul class="sec5-content2-list-column">
+                        <li class="sec5-content2-list-column-head">
+                            美系
+                        </li>
+                            <li class="sec5-content2-list-column-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-ford.6829e.png" />
+                            </li>
+                            <li class="sec5-content2-list-column-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-buick.a0893.png" />
+                            </li>
+                            <li class="sec5-content2-list-column-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-cadillac.f6c08.png" />
+                            </li>
+                            <li class="sec5-content2-list-column-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-lincoln.221a0.png" />
+                            </li>
+                            <li class="sec5-content2-list-column-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-chevrolet.1eaa3.png" />
+                            </li>
+                    </ul>
+                    <ul class="sec5-content2-list-column">
+                        <li class="sec5-content2-list-column-head">
+                            自主
+                        </li>
+                            <li class="sec5-content2-list-column-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-beijing.fff0b.png" />
+                            </li>
+                            <li class="sec5-content2-list-column-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-geelyauto.18f9d.png" />
+                            </li>
+                            <li class="sec5-content2-list-column-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-byd.4df6d.png" />
+                            </li>
+                            <li class="sec5-content2-list-column-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-linkco.3e056.png" />
+                            </li>
+                            <li class="sec5-content2-list-column-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-cc.df8f5.png" />
+                            </li>
+                            <li class="sec5-content2-list-column-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-qichen.657ed.png" />
+                            </li>
+                            <li class="sec5-content2-list-column-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-chery.6dd6d.png" />
+                            </li>
+                            <li class="sec5-content2-list-column-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-hq.17fdb.png" />
+                            </li>
+                            <li class="sec5-content2-list-column-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-exeed.5cf80.png" />
+                            </li>
+                            <li class="sec5-content2-list-column-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-haval.65e63.png" />
+                            </li>
+                    </ul>
+                    <ul class="sec5-content2-list-column">
+                        <li class="sec5-content2-list-column-head">
+                            新势力
+                        </li>
+                            <li class="sec5-content2-list-column-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-ar.b034f.png" />
+                            </li>
+                            <li class="sec5-content2-list-column-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-hengda.bce40.png" />
+                            </li>
+                            <li class="sec5-content2-list-column-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-lixiang.bd5cd.png" />
+                            </li>
+                            <li class="sec5-content2-list-column-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-nio.10dfa.png" />
+                            </li>
+                            <li class="sec5-content2-list-column-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-weima.ea4b2.png" />
+                            </li>
+                    </ul>
+                    <ul class="sec5-content2-list-column">
+                        <li class="sec5-content2-list-column-head">
+                            日系
+                        </li>
+                            <li class="sec5-content2-list-column-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-lexus.e8523.png" />
+                            </li>
+                            <li class="sec5-content2-list-column-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-toyota.99018.png" />
+                            </li>
+                    </ul>
+            </div>
+            <div class="sec5-content2-swiper">
+                <div class="sec5-content2-swiper-wrap">
+                    <div class="sec5-content2-swiper-title">更多合作伙伴</div>
+                    <ul class="sec5-content2-swiper-list">
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/adayo.6d3da.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/audi.01f51.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/baic_bjev.395bf.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/baic_group.18dc5.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/benz.236ae.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/borgward.1b28c.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/buick.b2ea1.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/byd.18383.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/byton.c8353.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/cadillac.65d99.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/carlife_kia.86c3c.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/changan.4196b.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/chevrolet.dc2a8.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/chrysler.c653b.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/citroen.4b6ec.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/delphi.33934.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/dongfeng.dfd0f.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/flyaudio.2f2bd.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/foton.1c9cd.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/gac_group.644d3.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/geelyauto.e986b.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/gm.f3d51.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/gmmc.f32be.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/greatwall.55a19.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/harman.e88c8.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/haval.2f17b.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/honda.8287d.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/hyundai.24ffb.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/jac.0e084.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/jaguar.9b703.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/jeep.ca8fb.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/kaiyue.d6659.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/kia.bef2f.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/king.dbf58.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/land_rover.7a64e.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/leopaard.d0326.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/lexus.ed032.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/lifan.59d5d.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/luxgen.a4591.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/mazda.2fdf2.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/mg.c07a9.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/nissan.4cc32.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/panasonic.730da.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/peugeot.d1c63.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/pioneer.45fb3.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/renault.37697.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/road_rover.8865a.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/shouqi.a307e.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/skoda.15fc7.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/subaru.efc48.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/thundersoft.5328c.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/toyota.91bdd.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/tralm.d17ff.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/tsp.95c48.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/visteon.25632.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/volkswagen.2471b.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/volvo.0f70f.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/weima.f5bdd.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/weishitong.ccae0.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/yftech.25bee.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/yiqi.e85ff.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/adayo.6d3da.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/audi.01f51.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/baic_bjev.395bf.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/baic_group.18dc5.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/benz.236ae.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/borgward.1b28c.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/buick.b2ea1.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/byd.18383.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/byton.c8353.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/cadillac.65d99.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/carlife_kia.86c3c.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/changan.4196b.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/chevrolet.dc2a8.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/chrysler.c653b.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/citroen.4b6ec.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/delphi.33934.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/dongfeng.dfd0f.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/flyaudio.2f2bd.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/foton.1c9cd.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/gac_group.644d3.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/geelyauto.e986b.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/gm.f3d51.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/gmmc.f32be.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/greatwall.55a19.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/harman.e88c8.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/haval.2f17b.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/honda.8287d.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/hyundai.24ffb.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/jac.0e084.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/jaguar.9b703.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/jeep.ca8fb.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/kaiyue.d6659.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/kia.bef2f.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/king.dbf58.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/land_rover.7a64e.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/leopaard.d0326.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/lexus.ed032.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/lifan.59d5d.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/luxgen.a4591.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/mazda.2fdf2.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/mg.c07a9.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/nissan.4cc32.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/panasonic.730da.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/peugeot.d1c63.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/pioneer.45fb3.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/renault.37697.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/road_rover.8865a.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/shouqi.a307e.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/skoda.15fc7.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/subaru.efc48.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/thundersoft.5328c.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/toyota.91bdd.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/tralm.d17ff.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/tsp.95c48.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/visteon.25632.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/volkswagen.2471b.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/volvo.0f70f.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/weima.f5bdd.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/weishitong.ccae0.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/yftech.25bee.png" alt="" />
+                            </li>
+                            <li class="sec5-content2-swiper-list-item">
+                                <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/yiqi.e85ff.png" alt="" />
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- <div class="section sec5-2">
+        <div class="sec5-content2">
+            <div class="sec5-head-wrap">
+                <ul class="sec5-head">
+                    <li class="sec5-head-item active" data-target=".sec5-content">
+                        合作品牌
+                        <span></span>
+                    </li>
+                    <li class="sec5-head-more">
+                        <div class="sec5-head-more-block">
+                            查看更多 <span class="sec5-head-more-block-arrow">></span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="sort">企业排名不分先后，按首字母顺序排序</div>
+            <div class="sec5-content2-card">
+                <div class="sec5-content2-item">
+                    <div class="sec5-content2-item-num">60+</div>
+                    <div class="sec5-content2-item-desc">合作车企</div>
+                </div>
+                <div class="sec5-content2-item">
+                    <div class="sec5-content2-item-num">500+</div>
+                    <div class="sec5-content2-item-desc">合作车型</div>
+                </div>
+                <div class="sec5-content2-item">
+                    <div class="sec5-content2-item-num">10亿+</div>
+                    <div class="sec5-content2-item-desc">年累计行驶/公里</div>
+                </div>
+                <div class="sec5-content2-item">
+                    <div class="sec5-content2-item-num">1300万</div>
+                    <div class="sec5-content2-item-desc">与车主一路畅行/人</div>
+                </div>
+            </div>
+            <div class="sec5-content2-list">
+                <ul class="sec5-content2-list-column">
+                    <li class="sec5-content2-list-column-head">
+                        德系
+                    </li>
+                    <li class="sec5-content2-list-column-item">
+                        <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-audi.1d5d3.png" />
+                    </li>
+                    <li class="sec5-content2-list-column-item">
+                        <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-shangqi.01377.png" />
+                    </li>
+                </ul>
+                <ul class="sec5-content2-list-column">
+                    <li class="sec5-content2-list-column-head">
+                        韩系
+                    </li>
+                    <li class="sec5-content2-list-column-item">
+                        <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-honda.71690.png" />
+                    </li>
+                    <li class="sec5-content2-list-column-item">
+                        <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-kia.bdb95.png" />
+                    </li>
+                    <li class="sec5-content2-list-column-item">
+                        <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-GEN.e6db1.png" />
+                    </li>
+                </ul>
+                <ul class="sec5-content2-list-column">
+                    <li class="sec5-content2-list-column-head">
+                        美系
+                    </li>
+                    <li class="sec5-content2-list-column-item">
+                        <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-ford.6829e.png" />
+                    </li>
+                    <li class="sec5-content2-list-column-item">
+                        <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-buick.a0893.png" />
+                    </li>
+                    <li class="sec5-content2-list-column-item">
+                        <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-cadillac.f6c08.png" />
+                    </li>
+                    <li class="sec5-content2-list-column-item">
+                        <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-lincoln.221a0.png" />
+                    </li>
+                    <li class="sec5-content2-list-column-item">
+                        <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-chevrolet.1eaa3.png" />
+                    </li>
+                </ul>
+                <ul class="sec5-content2-list-column">
+                    <li class="sec5-content2-list-column-head">
+                        自主
+                    </li>
+                    <li class="sec5-content2-list-column-item">
+                        <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-beijing.fff0b.png" />
+                    </li>
+                    <li class="sec5-content2-list-column-item">
+                        <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-geelyauto.18f9d.png" />
+                    </li>
+                    <li class="sec5-content2-list-column-item">
+                        <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-byd.4df6d.png" />
+                    </li>
+                    <li class="sec5-content2-list-column-item">
+                        <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-linkco.3e056.png" />
+                    </li>
+                    <li class="sec5-content2-list-column-item">
+                        <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-cc.df8f5.png" />
+                    </li>
+                    <li class="sec5-content2-list-column-item">
+                        <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-qichen.657ed.png" />
+                    </li>
+                    <li class="sec5-content2-list-column-item">
+                        <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-chery.6dd6d.png" />
+                    </li>
+                    <li class="sec5-content2-list-column-item">
+                        <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-hq.17fdb.png" />
+                    </li>
+                    <li class="sec5-content2-list-column-item">
+                        <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-exeed.5cf80.png" />
+                    </li>
+                    <li class="sec5-content2-list-column-item">
+                        <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-haval.65e63.png" />
+                    </li>
+                </ul>
+                <ul class="sec5-content2-list-column">
+                    <li class="sec5-content2-list-column-head">
+                        新势力
+                    </li>
+                    <li class="sec5-content2-list-column-item">
+                        <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-ar.b034f.png" />
+                    </li>
+                    <li class="sec5-content2-list-column-item">
+                        <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-hengda.bce40.png" />
+                    </li>
+                    <li class="sec5-content2-list-column-item">
+                        <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-lixiang.bd5cd.png" />
+                    </li>
+                    <li class="sec5-content2-list-column-item">
+                        <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-nio.10dfa.png" />
+                    </li>
+                    <li class="sec5-content2-list-column-item">
+                        <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-weima.ea4b2.png" />
+                    </li>
+                </ul>
+                <ul class="sec5-content2-list-column">
+                    <li class="sec5-content2-list-column-head">
+                        日系
+                    </li>
+                    <li class="sec5-content2-list-column-item">
+                        <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-lexus.e8523.png" />
+                    </li>
+                    <li class="sec5-content2-list-column-item">
+                        <img src="/static/chelianwang-homepage/images/homepage/version2/logo/sec-6-toyota.99018.png" />
+                    </li>
+                </ul>
+            </div>
+            <div class="sec5-content2-swiper">
+                <div class="sec5-content2-swiper-wrap">
+                    <div class="sec5-content2-swiper-title">更多合作伙伴</div>
+                    <ul class="sec5-content2-swiper-list">
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/adayo.6d3da.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/audi.01f51.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/baic_bjev.395bf.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/baic_group.18dc5.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/benz.236ae.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/borgward.1b28c.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/buick.b2ea1.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/byd.18383.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/byton.c8353.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/cadillac.65d99.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/carlife_kia.86c3c.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/changan.4196b.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/chevrolet.dc2a8.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/chrysler.c653b.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/citroen.4b6ec.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/delphi.33934.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/dongfeng.dfd0f.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/flyaudio.2f2bd.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/foton.1c9cd.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/gac_group.644d3.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/geelyauto.e986b.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/gm.f3d51.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/gmmc.f32be.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/greatwall.55a19.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/harman.e88c8.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/haval.2f17b.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/honda.8287d.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/hyundai.24ffb.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/jac.0e084.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/jaguar.9b703.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/jeep.ca8fb.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/kaiyue.d6659.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/kia.bef2f.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/king.dbf58.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/land_rover.7a64e.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/leopaard.d0326.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/lexus.ed032.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/lifan.59d5d.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/luxgen.a4591.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/mazda.2fdf2.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/mg.c07a9.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/nissan.4cc32.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/panasonic.730da.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/peugeot.d1c63.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/pioneer.45fb3.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/renault.37697.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/road_rover.8865a.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/shouqi.a307e.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/skoda.15fc7.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/subaru.efc48.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/thundersoft.5328c.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/toyota.91bdd.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/tralm.d17ff.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/tsp.95c48.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/visteon.25632.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/volkswagen.2471b.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/volvo.0f70f.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/weima.f5bdd.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/weishitong.ccae0.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/yftech.25bee.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/yiqi.e85ff.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/adayo.6d3da.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/audi.01f51.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/baic_bjev.395bf.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/baic_group.18dc5.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/benz.236ae.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/borgward.1b28c.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/buick.b2ea1.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/byd.18383.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/byton.c8353.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/cadillac.65d99.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/carlife_kia.86c3c.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/changan.4196b.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/chevrolet.dc2a8.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/chrysler.c653b.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/citroen.4b6ec.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/delphi.33934.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/dongfeng.dfd0f.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/flyaudio.2f2bd.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/foton.1c9cd.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/gac_group.644d3.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/geelyauto.e986b.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/gm.f3d51.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/gmmc.f32be.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/greatwall.55a19.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/harman.e88c8.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/haval.2f17b.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/honda.8287d.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/hyundai.24ffb.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/jac.0e084.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/jaguar.9b703.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/jeep.ca8fb.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/kaiyue.d6659.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/kia.bef2f.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/king.dbf58.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/land_rover.7a64e.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/leopaard.d0326.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/lexus.ed032.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/lifan.59d5d.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/luxgen.a4591.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/mazda.2fdf2.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/mg.c07a9.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/nissan.4cc32.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/panasonic.730da.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/peugeot.d1c63.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/pioneer.45fb3.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/renault.37697.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/road_rover.8865a.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/shouqi.a307e.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/skoda.15fc7.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/subaru.efc48.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/thundersoft.5328c.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/toyota.91bdd.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/tralm.d17ff.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/tsp.95c48.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/visteon.25632.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/volkswagen.2471b.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/volvo.0f70f.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/weima.f5bdd.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/weishitong.ccae0.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/yftech.25bee.png" alt="" />
+                        </li>
+                        <li class="sec5-content2-swiper-list-item">
+                            <img src="/static/chelianwang-homepage/images/homepage/version2/scrolllogo/yiqi.e85ff.png" alt="" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="section sec-6 sec6">
+        <a class="sec6-btn" href="mailto:iov-hezuo@baidu.com">立即申请合作</a>
+        <a class="sec6-mail sliderIn">iov-hezuo@baidu.com</a>
+    </div>
+</div>
+<script src="https://iov-www.cdn.bcebos.com/normal/js/jquery.1.10.2.min.js"></script>
+<script src="https://iov-www.cdn.bcebos.com/normal/js/jquery.lazyload.js"></script>
+<script src="https://iov-www.cdn.bcebos.com/normal/js/slick.1.5.9.min.js"></script>
+<script src="/static/chelianwang-homepage/dep/fullpage/fullpage.min.js"></script>
+<script src="/static/chelianwang-homepage/dep/videojs/video.min.js"></script>
+<script src="/static/chelianwang-homepage/js/homepage.min.d41d8.js"></script>
+<script src="/static/chelianwang-homepage/js/utils.min.ac2f3.js"></script>
+<script>
+    var numEle = [
+        {
+            ele: document.querySelector('#sec2-num1'),
+            target: 84,
+            toFixed: 0,
+            dealy: 0,
+            parent: document.querySelector('#sec2-num1').parentElement.parentElement
+        },
+        {
+            ele: document.querySelector('#sec2-num2'),
+            target: 85,
+            toFixed: 0,
+            dealy: 400,
+            parent: document.querySelector('#sec2-num2').parentElement.parentElement
+        },
+        {
+            ele: document.querySelector('#sec2-num3'),
+            target: 3,
+            toFixed: 0,
+            dealy: 0,
+            parent: document.querySelector('#sec2-num3').parentElement.parentElement
+        },
+        {
+            ele: document.querySelector('#sec2-num4'),
+            target: 1,
+            toFixed: 0,
+            dealy: 400,
+            parent: document.querySelector('#sec2-num4').parentElement.parentElement
+        }
+    ];
+
+    function setpFac(func) {
+        return function (timestamp, start) {
+            if (start === undefined) {
+                start = timestamp;
+            }
+            var elapsed = timestamp - start;
+            var flag = func(elapsed);
+            if (flag) {
+                var next = arguments.callee;
+                window.requestAnimationFrame(function (a) {
+                    next(a, start);
+                });
+            }
+        }
+    }
+
+    function startAction(ele, num, pos, parent, dealy) {
+        if (!isInViewPortOfTwo(ele)) {
+            $(parent).removeClass('active');
+            ele.innerHTML = 0;
+            return;
+        }
+        if (ele.innerHTML != 0) {
+            return;
+        }
+
+        var allTime = 1500;
+        var starFunc = setpFac(function (time) {
+            var rate = time / 2000;
+            var text = num * (rate > 1 ? 1 : rate);
+            ele.innerHTML = text.toFixed(pos);
+            return rate < 1;
+        });
+        setTimeout(function () {
+            $(parent).addClass('active');
+            window.requestAnimationFrame(starFunc);
+        }, dealy);
+    }
+    function mapAction() {
+        var flag = false;
+        function start() {
+            if (flag) {
+                return;
+            }
+            flag = true;
+            $('.map-city .map-city-item').map(function (index, item) {
+                setTimeout(function () {
+                    $(item).addClass('active');
+                    setTimeout(function () {
+                        $(item).find('.pop-container').addClass('active');
+                    }, 300);
+                }, 700 * (index + 1));
+            });
+        }
+        start.close = function () {
+            flag = false;
+            $('.map-city .map-city-item').removeClass('active');
+        }
+        return start;
+    }
+
+    var actionsList = [
+        {
+            ele: document.querySelector('.map-city-center'),
+            action: mapAction()
+        },
+        {
+            ele: document.querySelector('#fullpage .section.sec1 .title'),
+            action: sliderInAction(document.querySelector('#fullpage .section.sec1 .title'))
+        },
+        {
+            ele: document.querySelector('#fullpage .section.sec1 .title2'),
+            action: sliderInAction(document.querySelector('#fullpage .section.sec1 .title2'))
+        },
+        {
+            ele: document.querySelector('#fullpage .section.sec2 .title'),
+            action: sliderInAction(document.querySelector('#fullpage .section.sec2 .title'))
+        },
+        {
+            ele: document.querySelector('#fullpage .section.sec3 .title'),
+            action: sliderInAction(document.querySelector('#fullpage .section.sec3 .title'))
+        },
+        {
+            ele: document.querySelector('.sec5-content-item:nth-child(1)'),
+            action: sliderInAction(document.querySelector('.sec5-content-item:nth-child(1)'))
+        },
+        {
+            ele: document.querySelector('.sec5-content-item:nth-child(2)'),
+            action: sliderInAction(document.querySelector('.sec5-content-item:nth-child(2)'))
+        },
+        {
+            ele: document.querySelector('.sec5-content-item:nth-child(3)'),
+            action: sliderInAction(document.querySelector('.sec5-content-item:nth-child(3)'))
+        },
+        {
+            ele: document.querySelector('.sec5-content-item:nth-child(4)'),
+            action: sliderInAction(document.querySelector('.sec5-content-item:nth-child(4)'))
+        },
+        {
+            ele: document.querySelector('.sec5-content-item:nth-child(5)'),
+            action: sliderInAction(document.querySelector('.sec5-content-item:nth-child(5)'))
+        },
+        {
+            ele: document.querySelector('.sec5-content-item:nth-child(6)'),
+            action: sliderInAction(document.querySelector('.sec5-content-item:nth-child(6)'))
+        },
+        {
+            ele: document.querySelector('#fullpage .section.sec6'),
+            action: sliderInAction(document.querySelector('#fullpage .section.sec6'))
+        },
+        {
+            ele: document.querySelector('#fullpage .section.sec6 .sec6-mail'),
+            action: sliderInAction(document.querySelector('#fullpage .section.sec6 .sec6-mail'))
+        }
+    ];
+    var sec5HeadWrap = document.querySelector('.sec5-head-wrap');
+    var sec5Head = document.querySelector('.sec5-head');
+    var sec5Content = document.querySelector('.sec5-content');
+    var sec5Content2 = document.querySelector('.sec5-content2');
+    var sec5 = document.querySelector('.sec5');
+    var sec5ContentFlag = false;
+
+    /*
+    function toSec5_2() {
+        var viewPortHeight =
+        window.innerHeight ||
+        document.documentElement.clientHeight ||
+        document.body.clientHeight;
+        var Class = $('.sec5-content2').attr('class');
+        var top = sec6.getBoundingClientRect().top;
+        if (top <= viewPortHeight && Class.length < 14) {
+            //$('html,body').animate({ scrollTop: $('#sec5').offset().top}, 500);
+            $('.sec5-head-item').removeClass('active');
+            $('.sec5-head-item')[1].classList.add('active');
+            $('.sec5-content').removeClass('active');
+            $('.sec5-content2').addClass('active');
+        }
+    }
+    */
+    var isChange = true;
+    function changeSec5() {
+        var viewPortHeight =
+        window.innerHeight ||
+        document.documentElement.clientHeight ||
+        document.body.clientHeight;
+        var top = sec5.getBoundingClientRect().top;
+        if (top <= 0 && isChange) {
+            isChange = false;
+            $('.sec5-head-item').removeClass('active');
+            $('.sec5-head-item')[0].classList.add('active');
+            $('.sec5-content2').removeClass('active');
+            $('.sec5-content').addClass('active');
+        }else if (top > viewPortHeight && !isChange) {
+            isChange = true;
+            $('.sec5-head-item').removeClass('active');
+            $('.sec5-head-item')[1].classList.add('active');
+            $('.sec5-content').removeClass('active');
+            $('.sec5-content2').addClass('active');
+        }
+    }
+
+    // 防抖参数
+    var actionFlag = false;
+    function checkSec5Fixed() {
+        var toTop = sec5HeadWrap.getBoundingClientRect().top;
+        if (toTop <= 68) {
+            $(sec5Head).addClass('fixed');
+        } else {
+            $(sec5Head).removeClass('fixed');
+        }
+
+        /*
+        var top = sec5Head.getBoundingClientRect().bottom;
+        if (sec5Content.getBoundingClientRect().bottom - window.innerHeight < 0 && !sec5ContentFlag && !actionFlag) {
+            sec5ContentFlag = true;
+            actionFlag = true;
+            var windowHeight = window.innerHeight;
+            $(sec5Content).height($(sec5Content).height() - (windowHeight - top - 20));
+            $('.sec5-head-item:nth-child(2)').addClass('active');
+            $('.sec5-head-item:nth-child(1)').removeClass('active');
+            setTimeout(function () {
+                actionFlag = false;
+            }, 1300);
+        } else if ((sec5Content2.getBoundingClientRect().top) > top && sec5ContentFlag && !actionFlag) {
+            sec5ContentFlag = false;
+            actionFlag = true;
+            $(sec5Content).css('height', '');
+            $('.sec5-head-item:nth-child(1)').addClass('active');
+            $('.sec5-head-item:nth-child(2)').removeClass('active');
+            setTimeout(function () {
+                actionFlag = false;
+            }, 1300);
+        }
+        */
+    }
+
+    function initAction() {
+        changeSec5();
+        bannerAgain(document.querySelector('.banner-title'));
+        checkSec5Fixed();
+        isShowMouse();
+        for (var i = 0; i < numEle.length; i++) {
+            startAction(
+                numEle[i].ele,
+                numEle[i].target,
+                numEle[i].toFixed,
+                numEle[i].parent,
+                numEle[i].dealy
+            );
+        }
+        for (var j = 0; j < actionsList.length; j++) {
+            if (isInViewPortOfTwo(actionsList[j].ele)) {
+                actionsList[j].action();
+            } else {
+                actionsList[j].action.close();
+            }
+        }
+    }
+    window.addEventListener('scroll', initAction);
+    initAction();
+    $('.sec5-head-item').click(function (e) {
+        $('.sec5-head-item').removeClass('active');
+        $(this).addClass('active');
+        $('.sec5-content, .sec5-content2').removeClass('active');
+        $($(this).attr('data-target')).addClass('active');
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        videojs.options.flash.swf = 'video-js.swf';
+        var html = '<div class="video-player-wrapper">'
+            + ' <div class="btn-close-wrapper">'
+            + '      <div class="btn-close-player-wrapper">'
+            + '          <img src="/static/chelianwang-homepage/images/close.84af2.png" width="20px" height="20px">'
+            + '      </div>'
+            + '  </div>'
+            + '  <video id="perception_video" autoplay playsinline class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto" width="100%" height="100%">'
+            + '      <source src="" type="video/mp4">'
+            + '  </video>'
+            + '</div>';
+        var isPc = screen.width > 750 ? true : false;
+        $('body').append(html);
+
+        var videoPlayerWrapper = $('.video-player-wrapper');
+        $('.sec1 .play').on('click', showVideo);
+
+        videoPlayerWrapper.on('click', '.btn-close-player-wrapper', function () {
+            window.myPlayer.pause();
+            videoPlayerWrapper.hide();
+        });
+
+        // 播放视频
+        function showVideo() {
+            var videoUrl = $(this).attr('data-src');
+            var isFullscreen = false;
+
+
+            // bug fixed
+            // 这里需要先给source设置src ， 然后再初始化， 否则在firefox下 第一次会无法播放。
+            $('#perception_video source').attr('src', videoUrl);
+
+            /* globals videojs */
+            videojs('perception_video', {}, function () {
+                window.myPlayer = this;
+                var myPlayer = window.myPlayer;
+                myPlayer.src(videoUrl);
+                myPlayer.load(videoUrl);
+
+                //if (!isPc) {全部全屏展示
+                videoPlayerWrapper.show();
+
+                // 移动端全屏展示
+                window.myPlayer.on('fullscreenchange', function () {
+                    isFullscreen = !isFullscreen;
+                    if (!isFullscreen) {
+                        videoPlayerWrapper.hide();
+                        window.myPlayer.pause();
+                    }
+                });
+
+                //window.myPlayer.requestFullscreen();
+                //}
+                window.myPlayer.play();
+            });
+
+            if (isPc) {
+                videoPlayerWrapper.show();
+            }
+        }
+    });
+</script>
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement('script');
+        hm.src = 'https://hm.baidu.com/hm.js?57c780e716be729186ffdb330104e0f3';
+        var s = document.getElementsByTagName('script')[0]; 
+        s.parentNode.insertBefore(hm, s);
+    })();
+    
+    // 兼容 MouseEvent.path 非 chrome 浏览器
+    if (!('path' in MouseEvent.prototype) && Object.defineProperty) {
+        Object.defineProperty(MouseEvent.prototype, 'path', {
+            get: function() {
+                var path = [];
+                var currentElem = this.target;
+                while (currentElem) {
+                    path.push(currentElem);
+                    currentElem = currentElem.parentElement;
+                }
+                if (path.indexOf(window) === -1 && path.indexOf(document) === -1) {
+                    path.push(document);
+                }
+                if (path.indexOf(window) === -1) {
+                    path.push(window);
+                }
+                return path;
+            }
+        });
+    }
+    
+    // 使用捕获的方式 监听 body 的 click 事件，防止页面有些冒泡的事件被阻止冒泡，获取不到事件。
+    document.body.addEventListener('click', function (e) {
+        var pathname = window.location.pathname;
+        pathname = pathname.replace('/homepage/', '');
+        if (pathname === '/' || !pathname) {
+            pathname = '首页';
+        }
+    
+        if (e.path && e.path.length) {
+            for (var i = 0; i < e.path.length; i++) {
+                var node = e.path[i];
+    
+                if (!(node instanceof Element)) {
+                    break;
+                }
+    
+                var title = node.getAttribute('data-track-title');
+                if (title) {
+                    _hmt.push(['_trackEvent', title, 'click', pathname]);
+                    break;
+                }
+            }
+        }
+    }, true);
+    
+    </script>
+</body>
+</html>
